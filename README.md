@@ -31,17 +31,33 @@ chmod 777 ./script.sh
 ./script.sh
 ```
 
+<img width="1677" height="303" alt="image" src="https://github.com/user-attachments/assets/9b59e3fd-b3e5-4682-b1f7-e12ff959c548" />
+
 Kurulum başladığında sizden bazı sorular sorulacak 👇
 
 ---
 
 ## Script Sırasında Sorulacak Sorular
 
-1. **Ağ seçimi** → `mainnet` bırakın.
-2. **RPC’yi internete açmak ister misiniz?** → Eğer RPC’nizi paylaşmak istiyorsanız `y`, sadece kendiniz kullanacaksanız `n`.
-3. **Nginx server\_name (domain veya IP)** → Domaininiz yoksa IP adresinizi girin.
+1. **RPC’yi internete açmak ister misiniz?** → Eğer RPC’nizi paylaşmak istiyorsanız `y`, sadece kendiniz kullanacaksanız `n`.
+2. **Nginx server\_name (domain veya IP)** → Domaininiz yoksa IP adresinizi girin.
 
 ✅ Sonrasında script otomatik olarak Besu + güvenlik ayarlarını yapacak.
+
+<img width="711" height="108" alt="image" src="https://github.com/user-attachments/assets/5737da75-17b0-4118-9d9c-0ed881ff5d03" />
+<img width="634" height="99" alt="Ekran görüntüsü 2025-08-31 144015" src="https://github.com/user-attachments/assets/c1ad74ec-7e7a-4bbc-9157-eb30fa13d977" />
+
+---
+
+## Logları Takip Et:
+
+```bash
+sudo journalctl -f -u besu
+```
+
+Ortalama 8-10 saatte sekronize olacaktır ve loglardan takip edebilirsiniz. Loglar aşağıdaki gibi görünmelidir.
+
+<img width="1513" height="189" alt="image" src="https://github.com/user-attachments/assets/3fac9c7b-9046-4ca0-8446-9e7397ea5646" />
 
 ---
 
