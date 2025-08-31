@@ -100,6 +100,8 @@ Explorer     : https://lineascan.build
 > Eğer testnet (Sepolia) kurduysanız:
 > Chain ID: `59141` | Explorer: `https://sepolia.lineascan.build`
 
+<img width="367" height="290" alt="Ekran görüntüsü 2025-08-31 150132" src="https://github.com/user-attachments/assets/6e8b3289-5641-48d9-bec7-561d3c158338" />
+
 ---
 
 ## Faydalı Komutlar
