@@ -116,8 +116,13 @@ curl -s -X POST http://127.0.0.1:8545 \
 -d '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":1}'
 ```
 
-* `"result": false` → Node senkronize oldu.
-* Aksi halde senkronize olmaya devam ediyor.
+* `"result": false` → Görseldeki gibiyse, node senkronize oldu.
+
+<img width="634" height="60" alt="image" src="https://github.com/user-attachments/assets/961ebe71-bdeb-4c6b-be67-970a876df6a8" />
+
+* Aşağaki gib çıktı gibiyse senkronize olmaya devam ediyor.
+
+<img width="1209" height="52" alt="image" src="https://github.com/user-attachments/assets/c6d38895-4d9c-45b1-8efb-19bf9475617d" />
 
 ---
 
