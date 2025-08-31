@@ -130,10 +130,12 @@ curl -s -X POST http://127.0.0.1:8545 \
 
 ---
 
-## Güvenlik Notları
+## Önemli Notlar:
 
-* RPC portunu **herkese açık bırakmayın**. Sadece güvendiğiniz kişilere verin.
-* Nginx reverse proxy + UFW kullanarak güvenliği artırın.
-* 10-20 kişi aynı anda kullanabilir (sunucuya göre kapasite değişir).
+* **RPC’yi herkese açma.** → Sadece `y` de ve kendi IP’ni gir.
+* **Başkaları kullansın istiyorsan** sadece onlara verdiğin IP’yi paylaş.
+* **Domain şart değil.** → IP yeterli.
+* **UFW + Nginx zaten koruyor.** → Rastgele kimse bağlanamaz.
+* **Sunucunu yorma.** → 10–20 kişi için yeterli, fazlası sorun çıkarır.
 
 ---
